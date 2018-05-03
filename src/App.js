@@ -1,6 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
+import styles from './test.scss';
 
-function App() {
-  return <div className="hello" />;
+class App extends Component{
+  render(){
+    return(
+      <div className={styles.name}>
+        hello
+      </div>
+    );
+  }
 }
+
 export default App;
